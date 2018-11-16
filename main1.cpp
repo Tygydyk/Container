@@ -82,9 +82,9 @@ int main()
 		return s.ratings["Math"] == 5;
 	});
 
-	for (auto el : exlents)
+	for (auto elem : exlents)
 	{
-		cout << el.Name << endl;
+		cout << elem.Name << endl;
 	}
 	cout << endl;
 
@@ -99,9 +99,9 @@ int main()
 }
 void Print(const vector<Student> &s)
 {
-	for (auto el : s)
+	for (auto elem : s)
 	{
-		cout << el.Name << " | " << el.GroupId << " | " << "Math: " << el.ratings["Math"] << " ИНЖГРАФ: " << el.ratings["ИНЖГРАФ"]
-			<< " ТОЭ: " << el.ratings["ТОЭ"] << " Политология: " << el.ratings["Политология"] << endl;
+		cout << elem.Name << " | " << elem.GroupId << " | " << "Math: " << elem.ratings["Math"] << " ИНЖГРАФ: " << elem.ratings["ИНЖГРАФ"]
+			<< " ТОЭ: " << elem.ratings["ТОЭ"] << " Политология: " << elem.ratings["Политология"] << endl;
 	}
 }
